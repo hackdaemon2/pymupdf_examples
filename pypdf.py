@@ -20,7 +20,6 @@ __version__ = '0.0.1'
 __license__ = 'GNU GPL V3'
 __copyright__ = 'Copyright (c) 2019'
 
-from parse_tab import ParseTab
 import fitz
 import csv
 import time

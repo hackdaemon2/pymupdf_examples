@@ -21,7 +21,6 @@ __license__ = 'GNU GPL V3'
 __copyright__ = 'Copyright (c) 2019'
 
 import fitz
-import csv
 import time
 
 def pdf_extract(filename, page_no=8):

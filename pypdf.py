@@ -138,8 +138,8 @@ def pdf_extract(filename, page_no=8):
         
             # save the table data to csv file
             with open(output_csv_file, 'w', newline='') as output_file: 
-                # iterate through the table data to obtain the index that will be used to 
-                # determine odd and even columns
+                # iterate through the table data, There are six (6) columns per row. 
+                # Use the modulus operator (%) to determine the end of the row
                 count = 0
                 for data in table_text:
                     count += 1
